@@ -10,4 +10,13 @@ public class person {
         this.name = name;
         this.birthday = birthday;
     }
+
+    public String getName() {
+        return name;
+    }
+
+    public LocalDate getBirthday() {
+        return birthday;
+    }
+
 }
